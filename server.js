@@ -49,7 +49,7 @@ app.get("/", (req,res) => {
 
 
 
-app.listen(8080);
+app.listen(80);
 
 app.use(morgan("dev"));
 app.use(express.static("public"));
