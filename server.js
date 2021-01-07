@@ -83,3 +83,16 @@ async function main() {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+app.listen(80);
+
+app.use(morgan("dev"));
+app.use(express.static("public"));
+app.use(express.urlencoded({extended: true}));
+
+
+>>>>>>> da1c2485ecfb8cadd294839117565995adc0abd9
