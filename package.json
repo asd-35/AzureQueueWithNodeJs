@@ -10,13 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
     "@azure/arm-storage": "^15.1.0",
     "@azure/identity": "^1.2.0",
     "@azure/storage-queue": "^12.2.0",
     "ejs": "^3.1.5",
-=======
->>>>>>> da1c2485ecfb8cadd294839117565995adc0abd9
     "express": "^4.17.1",
     "morgan": "^1.10.0",
     "mssql": "^6.3.0"
