@@ -21,10 +21,10 @@ app.get("/", (req,res) => {
 
     // config for your database
     var config = {
-        user: "admin363",
-        password: "Password363!",
-        server: "cmpe363-sql.database.windows.net", 
-        database: "sqldb1"
+        user: "",
+        password: "",
+        server: "", 
+        database: ""
     };
 
     // connect to your database
@@ -57,13 +57,13 @@ app.post("/", (req,res) => {
     }
     
       
-    const connStr = "DefaultEndpointsProtocol=https;AccountName=saforcmpe363;AccountKey=qPXc94ZUxS/ebpRjnuWLVjLbfJ++PBEQsAqsUJG+iO45gCK67oA2FX+sBtGUq3nOEWI43T7So67MwHSNdeCS8A==;EndpointSuffix=core.windows.net";
+    const connStr = "DefaultEndpointsProtocol=https;AccountName=s;";
  
     const queueServiceClient = QueueServiceClient.fromConnectionString(connStr);
  
     
  
-const queueName = "queueforcustomerid";
+const queueName = "";
  
 async function main() {
   const queueClient = queueServiceClient.getQueueClient(queueName);
